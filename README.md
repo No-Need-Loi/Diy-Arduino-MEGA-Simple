@@ -28,6 +28,34 @@ This brings us to a critical decision point in the hardware designing process; w
 
 The main argument against doing something like this is that if you are not using the USB functionality for something critical to your application (your device does not need to hook up to a PC for example), then including built-in USB connectivity is unnecessary.
 
+This project contains PCB and which was made with the help of JLCPCB
+
+JLCPCB has upgraded the via-in-pad process of all 6-20 layer PCBs for free and provides free ENIG to make PCB products more stable and reliable. It is worth mentioning that due to large-scale production capabilities, JLCPCB is able to reduce the cost, allowing everyone to truly enjoy the benefits of the JLCPCB advanced fabrication. Here at JLCPCB, you can also get 1-8 layer PCBs at only $2
+
+![FWII4IJLL9GI260](https://github.com/No-Need-Loi/Make-Your-Own-ESP32-Simple/assets/142481076/ca198e8b-842f-472e-b934-1808d302c66b)
+
+Go to JLCPCB website and create a free account.  
+
+Register and Login using Google Account is also possible.
+
+Step 2 – Upload Gerber File
+Once you have successfully created an account, Click on “Quote Now” and upload your Gerber File.
+
+Gerber File contains information about your PCB such as PCB layout information, Layer information, spacing information, tracks to name a few.
+
+
+Step 3 – Preview the File
+Once the Gerber file is uploaded, it will show you a preview of your circuit board.
+
+Make sure this is the PCB Layout of the board you want.
+
+Step 4 – Choose Necessary PCB Options
+
+![FEP2OKBLL9GI263](https://github.com/No-Need-Loi/Make-Your-Own-ESP32-Simple/assets/142481076/ee79a6b2-8171-4edc-8f75-58105317fb0d)
+
+Below the PCB preview, you will see so many options such as PCB Quantity, Texture, Thickness, Color etc. Choose all that are necessary for you. 
+
+
 It adds additional cost for the extra microcontroller and all of its required external components.
 
 It also demands that a portion of the board edge must be clear for the USB port itself, which can be an issue in size-critical applications.
